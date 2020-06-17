@@ -1,8 +1,8 @@
 {
-  "name": "test1",
+  "name": "lambdaregiondemo",
   "version": "0.1.0",
   "bin": {
-    "test1": "bin/test1.js"
+    "labmdaregiondemo": "bin/LambdaRegionDemo.js"
   },
   "scripts": {
     "build": "tsc",
