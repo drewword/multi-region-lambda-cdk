@@ -5,7 +5,7 @@ Implementation of a multi-region lambda with the AWS CDK, Route 53, and API Gate
 
 This repository implements the AWS article on regional lambda using the AWS CDK.
 
-Please see the article located here:
+The AWS inspiration blog post is located here:
 
 https://aws.amazon.com/blogs/compute/building-a-multi-region-serverless-application-with-amazon-api-gateway-and-aws-lambda/
 
@@ -43,4 +43,11 @@ Navigate to demo.YOURDOMAIN/hello to see the results of the lambda.
 In order to change regions, run the above CDK deploy command and switch the OK and FAIL status between the status1 and status2 variables.
 
 After waiting a few moments, refresh the URL, and you will see the region change.
+
+# Further Reading
+
+Please see the corresponding Medium article located here:
+
+https://medium.com/@drewword/multi-region-lambda-with-route53-8d8f8d63357b
+
 
